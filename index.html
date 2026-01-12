@@ -1,257 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio Website</title>
-    <link rel="icon" type="image/x-icon" href="https://media.licdn.com/dms/image/D5635AQFL1h0FB9VibQ/profile-framedphoto-shrink_200_200/0/1677783787191?e=1680552000&v=beta&t=06kyJNjUi1EFBHbfXveyms6QOxb1ycWNTXdkv43rw-0">
-    <!-- Link To CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Box Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Md Nazir Raza | Automation & Embedded Engineer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Boxicons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+  />
 </head>
 
 <body>
-    <!-- Navbar -->
-    <header>
-        <a href="#" class="logo"> My portfolio</a>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <a href="#home" class="logo">Nazir<span>Raza</span></a>
 
-        <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <div class="bx bx-moon" id="darkmode"></div>
-        </ul>
-    </header>
-    <!-- Home -->
+  <div class="bx bx-menu" id="menu-icon"></div>
 
-    <section class="home" id="home">
-        <div class="social">
-            <!-- <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-dribbble'></i></a>
-            <a href="#"><i class='bx bxl-behance'></i></a> -->
-        </div>
-        <div class="home-img">
-            <img src="22.png" alt="">
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#contact">Contact</a>
+    <i class="bx bx-moon" id="darkmode"></i>
+  </nav>
+</header>
 
-        </div>
-        <div class="home-text">
-            <span>Hello, I'm</span>
-            <h1>MD NAZIR RAZA</h1>
-            <h2>Automation Test Engineer</h2>
-            <p>I’m an Automation Test Engineer specializing in <b> Aspiring Embedded software Engineer</b>. Currently, I’m focused on building
-                accessible.</p>
-            <a href="#contact" class="btn">Contact Me</a>
-        </div>
-    </section>
-    <hr>
-    <!-- About -->
-    <section class="about" id="about">
-        <div class="heading">
-            <h2>About Me</h2>
-            <span>Introduction</span>
-        </div>
-        <!-- About Content -->
-        <div class="about-container">
-            <div class="about-img">
-                <img src="121.jpg" alt="about image    ">
-            </div>
-            <div class="about-text">
-                <p>Hello! My name is <b> Md Nazir Raza</b> I'm an Automation Test Engineer with a solid foundation in Automotive testing.
-Aspiring to transition into embedded software engineering.
-I'm passionate about developing innovative solutions that bridge hardware and software.
-Driving efficiency and reliability.
-                </p>
-                <div class="information">
-                    <!-- Box 1 -->
-                    <div class="info-box">
-                        <i class='bx bxs-user'></i>
-                        <span>Md Nazir Raza</span>
-                    </div>
-                    <!-- Box 2 -->
-                    <div class="info-box">
-                        <i class='bx bxs-phone'></i>
-                        <span>7970515042</span>
-                    </div>
-                    <!-- Box 3 -->
-                    <div class="info-box">
-                        <i class='bx bxs-envelope'></i>
-                        <span><a href="mailto:mdnazirraza786@gmail.com"> mdnazirraza786@gmail.com</a></span>
-                    </div>
-                </div>
-                <a href="https://drive.google.com/file/d/10p9ToChFQiU3XaLiSQAeRoOODRAEJOtI/view?usp=drive_link" download="Md_Nazir_Resume" class="btn">Download Cv</a>
-            </div>
-        </div>
-    </section>
-<!--     Skills -->
-    <section class="skills" id="skills">
-        <div class="heading">
-            <h2>Skills</h2>
-            <span>My Skills</span>
-        </div>
-        <!-- Skills Content -->
-        <div class="skills-container">
-            <div class="bars">
-                <!-- Box 1 -->
-                <div class="bars-box">
-                    <h3>HTML</h3>
-                    <span>90%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar html-bar"></div>
-                </div>
-                <!-- Box 2 -->
-                <div class="bars-box">
-                    <h3>CSS</h3>
-                    <span>84%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar css-bar"></div>
-                </div>
-                <!-- Box 3 -->
-                <div class="bars-box">
-                    <h3>EMbedded C</h3>
-                    <span>74%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar js-bar"></div>
-                </div>
-                <div class="bars-box">
-                    <h3>Python</h3>
-                    <span>60%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar js-bar"></div>
-                </div>
-                <div class="bars-box">
-                    <h3>Debugging</h3>
-                    <span>70%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar js-bar"></div>
-                </div>
-                <!-- Box 4 --> 
-                <div class="bars-box">
-                    <h3>Real-time operating systems (RTOS)</h3>
-                    <span>80%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar react-bar"></div>
-                </div>
-            </div>
-            <div class="skills-img">
-                <img src="123.png" alt="">
-            </div>
-        </div>
+<!-- ================= HOME ================= -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hello, I'm</h3>
+    <h1>Md Nazir Raza</h1>
+    <h2>Automation Test Engineer</h2>
 
-    </section>
-    <!-- Services -->
-    <section class="services" id="services">
-        <div class="heading">
-            <h2>Services</h2>
-            <span>Our Services</span>
-        </div>
-        <div class="services-content">
-            <!-- Box 1 -->
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
-                <a href="#">Learn More</a>
-            </div>
-            <!-- Box 2 -->
-<!--             <div class="services-box">
-                <i class='bx bx-server'></i>
-                <h3>Backend Development</h3>
-                <a href="#">Learn More</a>
-            </div> -->
-            <!-- Box 3 -->
-            <div class="services-box">
-                <i class='bx bx-brush'></i>
-                <h3>UI/UX Design</h3>
-                <a href="#">Learn More</a>
-            </div>
+    <p>
+      Automation Test Engineer with strong debugging skills and hands-on
+      experience in automotive and embedded testing.
+      <br />
+      <b>Aspiring Embedded Software Engineer</b> focused on C, RTOS, and
+      hardware-software integration.
+    </p>
 
-            <div class="services-box">
-                <!-- <i class='bx bxl-wordpress'></i> -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    style="fill: rgba(0, 0, 0, 1);transform: msFilter;">
-                    <path
-                        d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z">
-                    </path>
-                    <path
-                        d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z">
-                    </path>
-                </svg>
-                <h3>Python Developer</h3>
-                <a href="#">Learn More</a>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio -->
-    <section class="portfolio" id="portfolio">
-        <div class="heading">
-            <h2>Portfolio</h2>
-            <span>Our Recent Work</span>
-        </div>
-        <div class="portfolio-content">
-            <div class="portfolio-img">
-                <img src="blog-2.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-3.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-4.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-5.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-6.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-7.jpg" alt="">
-            </div>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
 
-        </div>
-    </section>
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <div class="heading">
-            <h2>Contact</h2>
-            <span>Connect With Us</span>
-        </div>
-        <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" name="" id="" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <input type="button" value="Send" class="contact-button">
-            </form>
-        </div>
-    </section>
-    <!-- Footer -->
-    <div class="footer">
-        <h2>portfolio</h2>
-        <div class="footer-social">
-            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
-            <a href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
-            <a href="https://instagram.com/desire_nazir_2.0?igshid=ZDdkNTZiNTM="><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.youtube.com/@mdnazirraza8820/playlists"><i class='bx bxl-youtube'></i></a>
-        </div>
+  <div class="home-img">
+    <img src="22.png" alt="Profile Image of Md Nazir Raza" />
+  </div>
+</section>
 
-    </div>
-    <!-- Copyright -->
-    <div class="copyright">
-        <p>Create By <a href="">Md Nazir Raza</a> | All Right Reserved.</p>
+<!-- ================= ABOUT ================= -->
+<!-- ================= ABOUT ================= -->
+<section class="about reveal" id="about">
+  <div class="heading">
+    <h2>About Me</h2>
+    <span>Professional Summary</span>
+  </div>
+
+  <div class="about-container">
+    <div class="about-img">
+      <img src="121.jpg" alt="Md Nazir Raza - Embedded Software Aspirant">
     </div>
 
+    <div class="about-text">
+      <p>
+        I am an Automation Test Engineer with hands-on experience in system testing,
+        debugging, and validation of hardware-integrated products. While working
+        closely with hardware and firmware teams, I developed a strong interest in
+        embedded systems and low-level software development.
+        <br><br>
+        Currently, I am transitioning into Embedded Software Engineering and actively
+        building my skills in Embedded C, microcontroller fundamentals, and RTOS
+        concepts. I am continuously practicing firmware development and improving my
+        understanding of hardware–software interaction.
+        <br><br>
+        I am highly motivated to grow as an Embedded Software Engineer and contribute
+        to developing reliable, efficient, and high-quality embedded solutions.
+      </p>
+
+      <div class="information">
+        <div class="info-box">
+          <i class='bx bxs-user'></i>
+          <span>Md Nazir Raza</span>
+        </div>
+
+        <div class="info-box">
+          <i class='bx bxs-phone'></i>
+          <span>+91 7970515042</span>
+        </div>
+
+        <div class="info-box">
+          <i class='bx bxs-envelope'></i>
+          <span>
+            <a href="mailto:mdnazirraza786@gmail.com">
+              mdnazirraza786@gmail.com
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <a
+        href="https://drive.google.com/file/d/10p9ToChFQiU3XaLiSQAeRoOODRAEJOtI/view"
+        target="_blank"
+        class="btn"
+      >
+        Download Resume
+      </a>
+    </div>
+  </div>
+</section>
 
 
-    <!-- Link To JS -->
-    <script src="./js/script.js"></script>
+<!-- ================= SKILLS ================= -->
+<section class="skills reveal" id="skills">
+
+  <div class="heading">
+    <h2>Skills</h2>
+    <span>Technical Expertise</span>
+  </div>
+
+  <div class="skills-container">
+    <div class="bars">
+
+      <div class="bars-box">
+        <h3>Embedded C</h3>
+        <span>75%</span>
+        <div class="light-bar"></div>
+        <div class="percent-bar c-bar"></div>
+      </div>
+
+      <div class="bars-box">
+        <h3>RTOS (Basics)</h3>
+        <span>70%</span>
+        <div class="light-bar"></div>
+        <div class="percent-bar rtos-bar"></div>
+      </div>
+
+      <div class="bars-box">
+        <h3>Python</h3>
+        <span>65%</span>
+        <div class="light-bar"></div>
+        <div class="percent-bar python-bar"></div>
+      </div>
+
+      <div class="bars-box">
+        <h3>Debugging & Testing</h3>
+        <span>80%</span>
+        <div class="light-bar"></div>
+        <div class="percent-bar debug-bar"></div>
+      </div>
+
+      <div class="bars-box">
+        <h3>HTML & CSS</h3>
+        <span>85%</span>
+        <div class="light-bar"></div>
+        <div class="percent-bar html-bar"></div>
+      </div>
+
+    </div>
+
+    <div class="skills-img">
+      <img src="123.png" alt="Skills Illustration" />
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services reveal" id="services">
+  <div class="heading">
+    <h2>Services</h2>
+    <span>What I Do</span>
+  </div>
+
+  <div class="services-content">
+
+    <div class="services-box">
+      <i class="bx bx-bug"></i>
+      <h3>Automation Testing</h3>
+      <p>Test case design, execution, debugging, and reporting.</p>
+    </div>
+
+    <div class="services-box">
+      <i class="bx bx-chip"></i>
+      <h3>Embedded Development</h3>
+      <p>Embedded C, RTOS basics, MCU-level programming.</p>
+    </div>
+
+    <div class="services-box">
+      <i class="bx bx-code-alt"></i>
+      <h3>Python Scripting</h3>
+      <p>Automation scripts, utilities, and test tools.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section class="portfolio reveal" id="portfolio">
+
+  <div class="heading">
+    <h2>Projects</h2>
+    <span>Learning & Practice Work</span>
+  </div>
+
+  <div class="portfolio-content">
+    <div class="portfolio-img"><img src="blog-2.jpg" alt="Project 1" /></div>
+    <div class="portfolio-img"><img src="blog-3.jpg" alt="Project 2" /></div>
+    <div class="portfolio-img"><img src="blog-4.jpg" alt="Project 3" /></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+ <section class="contact reveal" id="contact">
+
+  <div class="heading">
+    <h2>Contact</h2>
+    <span>Let's Connect</span>
+  </div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="6" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <h2>Md Nazir Raza</h2>
+
+  <div class="footer-social">
+    <a href="#"><i class="bx bxl-linkedin"></i></a>
+    <a href="#"><i class="bx bxl-github"></i></a>
+    <a href="#"><i class="bx bxl-instagram"></i></a>
+    <a href="#"><i class="bx bxl-youtube"></i></a>
+  </div>
+
+  <p>© 2026 Md Nazir Raza | All Rights Reserved</p>
+</footer>
+
+<!-- JS -->
+<script src="./js/script.js"></script>
 </body>
-
 </html>
